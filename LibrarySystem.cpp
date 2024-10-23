@@ -1,16 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class IBook
-{
-public:
-    virtual void read() = 0;
-    virtual bool borrow(int user_id) = 0;
-    virtual void return_copy() = 0;
-    virtual bool has_prefix(string prefix) = 0;
-    virtual void print() = 0;
-    virtual ~IBook() {}
-};
 class Book
 {
     int id;
