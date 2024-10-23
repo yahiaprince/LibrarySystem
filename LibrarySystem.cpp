@@ -13,8 +13,12 @@ public:
 
     void read()
     {
-        cout << "Enter book info: id & name & total quantity: ";
-        cin >> id >> name >> total_quantity;
+        cout << "Enter Book Name: ";
+        cin >> name;
+        cout << "Book ID: ";
+        cin >> id;
+        cout << "Total Quantity: ";
+        cin >> total_quantity;
         total_borrowed = 0;
     }
 
@@ -66,8 +70,10 @@ public:
 
     void read()
     {
-        cout << "Enter user name & national id: ";
-        cin >> name >> id;
+        cout << "Enter User Name: ";
+        cin >> name;
+        cout << "Enter National ID: ";
+        cin >> id;
     }
 
     void borrow(int book_id)
